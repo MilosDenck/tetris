@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Tetris Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Use Arrow Keys for playing, Space pauses the Game
+
+This is just for demonstration and not for commercial uses. It's not permitted to have fun while playing this game.
+
 
 ## Available Scripts
 
