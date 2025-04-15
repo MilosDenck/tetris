@@ -4,6 +4,8 @@ Use Arrow Keys for playing, Space pauses the Game
 
 This is just for demonstration and not for commercial uses. It's not permitted to have fun while playing this game.
 
+Live-Demo: https://tetris-six-navy.vercel.app
+
 
 ## Available Scripts
 

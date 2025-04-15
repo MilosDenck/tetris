@@ -48,8 +48,7 @@ function App() {
                   <div style={{width: 32, margin:0, padding:0, boxSizing: "border-box", height:32, border: "1px solid white", backgroundColor: "black"}} /> 
               )
             }
-
-          
+            
           </div>
           
         )}
@@ -57,9 +56,7 @@ function App() {
       </div>
       <div className="info-card">
         <div style={{fontSize: 15, marginBottom: "10px"}}>Milos' Tetris Game</div>
-        
-        
-        
+
         <NextShapeComponent shape={nextShape} />
         <div className='points'>
           <div >Points: {points}</div>
