@@ -1,51 +1,63 @@
-# Tetris Game
+# Retro Tetris (React.js)
 
-Use Arrow Keys for playing, Space pauses the Game
+<img src="assets/screen_recording.gif" alt="Demo" width="450">
 
-This is just for demonstration and not for commercial uses. It's not permitted to have fun while playing this game.
+# Overview
 
-Live-Demo: https://tetris-six-navy.vercel.app
+A classic Tetris game fully implemented using React.js. This project served as a hands-on exercise to deepen my understanding of frontend development concepts, state management patterns, and building dynamic user interfaces within a Single Page Application. The focus was on clean code, modularity, and implementing core Tetris mechanics from scratch.
 
+# Technologies Used
 
-## Available Scripts
+* **Frontend:** React.js (JavaScript, HTML, CSS)
+* **State Management:** React Hooks (useState, useEffect, useRef)
+* **Styling:** CSS
 
-In the project directory, you can run:
+# Key Features
+* **Classic Gameplay:** All familiar Tetris mechanics including falling blocks, line clearing, rotation, and collision detection.
+* **Score System:** Points awarded for cleared lines.
+* **Level Progression:** Increasing difficulty through faster block drops.
+* **"Next Piece" Preview:** Displays the upcoming Tetromino.
+* **Keyboard Controls:** Intuitive keyboard navigation for controlling the Tetrominos.
+* **Clean and Modular Codebase:** Structured component architecture designed for easy maintenance and future extensibility.
 
-### `npm start`
+# Installation & Local Setup
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To get a local copy up and running, follow these simple steps:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Clone the repository:
 
-### `npm test`
+```
+git clone https://github.com/MilosDenck/tetris.git
+cd tetris-project
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
 
-### `npm run build`
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+npm run dev
+```
+ The game should now be accessible in your web browser at http://localhost:3000 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Live Demo
 
-### `npm run eject`
+Play Retro Tetris directly in your browser:
+https://tetris.milosdenck.de/
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Lessons Learned & Key Takeaways
+This project provided an excellent opportunity to solidify my understanding of React.js and advanced frontend development techniques. Specific areas of focus included:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* **Complex State Management:** Tackling the challenge of efficiently and performantly managing the game board state, falling blocks, and score.
+* **Rendering Optimization:** Ensuring smooth gameplay even during fast-paced sequences through effective state management and the strategic use of useCallback and useMemo.
+* **Algorithm Implementation:** Writing core algorithms for collision detection, line clearing, and block rotation.
+* **Clean Code Principles:** Emphasizing readability, maintainability, and a modular component architecture.
+Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+All code is the property of Milos Denck. This Code is just for demostration and not for commercial usage. Feel free to be inspired by my code.
